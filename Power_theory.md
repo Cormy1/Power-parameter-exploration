@@ -50,22 +50,8 @@ $$
 
 where $z(\frac{\alpha}{2})$ is the critical z-score corresponding to the significance level $\alpha$ (divided by 2 for a two-tailed test). This value can be obtained from the cumulative normal distribution $\phi$.
 
-To explore the relationship between effect size, power and significance level please refer to this link for an [interactive app] and this one for the corresponding [Github repository]
-
-**Power in the Context of Metabolomic Data**
-
-Given the correlations and high dimensionality in metabolomic data, traditional methods of estimating sample size based on test power are not generally used. Instead, most approaches turn to simulations to estimate power, particularly when dealing with such complex datasets.
-
-In this context, power is often equated with "sensitivity" or the "true positive rate", and is defined as:
-
-$$
-Power = \frac{True Positives(TP)}{True Positives(TP)+False Negatives(FN)}
-$$
-
-Here, power represents the proportion of genuine effects that the test accurately identifies as statistically significant. In simpler terms, it's the likelihood that the test will correctly spot a real difference or effect when it exists.
-
 ## References and further reading
 
--   Cohen, J., 1977. The Concepts of Power Analysis, in: Statistical Power Analysis for the Behavioral Sciences. Elsevier, pp. 1â€“17. https://doi.org/10.1016/B978-0-12-179060-8.50006-2
+- Cohen, J., 1977. The Concepts of Power Analysis, in: Statistical Power Analysis for the Behavioral Sciences. Elsevier, pp. 1â€“17. https://doi.org/10.1016/B978-0-12-179060-8.50006-2
 
 - Cohen, J., 1977. The t Test for Means, in: Statistical Power Analysis for the Behavioral Sciences. Elsevier, pp. 19â€“74. https://doi.org/10.1016/B978-0-12-179060-8.50007-4
